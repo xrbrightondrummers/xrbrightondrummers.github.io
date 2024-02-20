@@ -261,9 +261,11 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 
 
 body {
-      background: #c80082; 
-	  color: #ffffff;
-    }
+  background: #c80082; 
+  color: #ffffff;
+  
+	  
+}
 
     .container {
       width: 100%;
