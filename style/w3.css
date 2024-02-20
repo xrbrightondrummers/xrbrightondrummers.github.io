@@ -233,3 +233,85 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-border-dark-grey,.w3-hover-border-dark-grey:hover,.w3-border-dark-gray,.w3-hover-border-dark-gray:hover{border-color:#616161!important}
 .w3-border-pale-red,.w3-hover-border-pale-red:hover{border-color:#ffe7e7!important}.w3-border-pale-green,.w3-hover-border-pale-green:hover{border-color:#e7ffe7!important}
 .w3-border-pale-yellow,.w3-hover-border-pale-yellow:hover{border-color:#ffffcc!important}.w3-border-pale-blue,.w3-hover-border-pale-blue:hover{border-color:#e7ffff!important}
+
+
+
+
+
+.w3-theme-l1 {color:#000 !important; background-color:#5eff5e !important}
+
+.w3-theme-light {color:#000 !important; background-color:#fef2f6 !important}
+.w3-theme-dark {color:#fff !important; background-color:#790c30 !important}
+.w3-theme-action {color:#fff !important; background-color:#790c30 !important}
+
+.w3-theme {color:#000 !important; background-color:#e91e63 !important}
+.w3-text-theme {color:#e91e63 !important}
+.w3-border-theme {border-color:#000000 !important}
+
+.w3-hover-theme:hover {color:#000 !important; background-color:#e91e63 !important}
+.w3-hover-text-theme:hover {color:#5eff5e  !important}
+.w3-hover-border-theme:hover {border-color:#000000 !important}
+
+
+
+body {
+      background: #c80082; 
+	  color: #ffffff;
+    }
+
+    .container {
+      width: 100%;
+      height: 100%;
+      padding-right: 4px;
+      padding-left: 4px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+
+    .links-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .links-container a {
+      width: 80%;
+    }
+
+    .w3-theme-l1:hover {
+      background-color: #f279a1 !important;
+    }
+
+    .margin-top-2 {
+      margin-top: 4px;
+    }
+
+    .bottom {
+      width: 100%;
+      text-align: center;
+      width: auto;
+      font-weight: bolder;
+    }
+
+    .bottom span {
+      color: #ed4d82;
+    }
+
+    .bottom svg {
+      stroke: #ed4d82;
+      fill: #ed4d82;
+    }
+
+    @media (min-width: 768px) {
+      .link {
+        width: 100%;
+      }
+    }
+    @media (min-width: 576px) {
+      .container {
+        max-width: 540px;
+      }
+    }
