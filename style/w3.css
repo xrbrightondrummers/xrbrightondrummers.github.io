@@ -261,10 +261,13 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 
 
 body {
-  background: #c80082; 
+	
   color: #ffffff;
-  
-	  
+  background: url(background.jpg), #c80082;
+  background-repeat: repeat-x;
+  background-size: contain;
+  background-position-y: top;
+  background-attachment: fixed;
 }
 
     .container {
