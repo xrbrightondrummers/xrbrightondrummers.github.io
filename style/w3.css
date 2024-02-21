@@ -59,9 +59,14 @@ h1,h2,h3,h4,h5,b {
 	text-shadow: #000 0 0 15px,#000 0 0 5px;
 }
 
+p {
+	text-align:left;
+}
+
 .w3-button {
 	text-shadow: none;
 	text-outline: #fff 5px;
+	vertical-align: middle;
 }
 
 .container {
