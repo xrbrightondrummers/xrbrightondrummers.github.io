@@ -12,9 +12,14 @@ small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertic
 sub{bottom:-0.25em}sup{top:-0.5em}figure{margin:1em 40px}img{border-style:none}
 /* End extract */
 html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.2}html{overflow-x:hidden}
-h1{font-size:40px}h2{font-size:30px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}
+h1{font-size:40px}
+h2{font-size:30px}
+h3{font-size:24px}
+h4{font-size:20px}
+h5{font-size:18px}
+h6{font-size:16px}
 .w3-serif{font-family:"fucxed"}.w3-sans-serif{font-family:sans-serif}.w3-cursive{font-family:cursive}.w3-monospace{font-family:monospace}
-h1,h2,h3,h4,h5,h6{font-family:"fucxed",Arial,sans-serif;font-weight:400;margin:10px 0}.w3-wide{letter-spacing:4px}
+h1,h2,h3,h4,h5,h6{font-family:"fucxed",Arial,sans-serif;font-weight:400;margin:5px 0}.w3-wide{letter-spacing:4px}
 hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-image{max-width:100%;height:auto}img{vertical-align:middle}a{color:inherit}
 
@@ -66,6 +71,7 @@ h1,h2,h3,h4,h5,b {
   padding-left: 4px;
   margin-right: auto;
   margin-left: auto;
+  text-align:center;
 }
 
 
